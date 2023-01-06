@@ -17,12 +17,12 @@ public class Operadores {
       a = 5;
       b = 5;
 
-      String resultado = "";
+      String resultado = a==b ? "Verdadeiro" : "False";
 
-      if(a==b) 
-       resultado = "Verdadeiro";
-      else
-       resultado = "Falso";
+      // if(a==b) 
+      //  resultado = "Verdadeiro";
+      // else
+      //  resultado = "Falso";
       
       System.out.println(resultado);
     }
